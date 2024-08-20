@@ -4,9 +4,9 @@ import { Alert, Button, Container,} from "react-bootstrap"
 const Welcome = function () {
     const [show, setShow] = useState(true);
     return (
-        <Container fluid  bg='info' style={{marginTop: "100px"}} >
+        <Container fluid  bg='info' style={{marginTop: "100px", marginBottom: "30px"}} >
         <Alert show={show} variant="info" >
-          <Alert.Heading>Welcome to EpiBooks!!</Alert.Heading>
+          <Alert.Heading className='mb-3'>Welcome to EpiBooks!!</Alert.Heading>
           <p>
             Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
             lacinia odio sem nec elit. Cras mattis consectetur purus sit amet

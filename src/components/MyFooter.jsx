@@ -1,11 +1,11 @@
-import { Container } from "react-bootstrap";
-
 
 const MyFooter = function () {
     return (
-       <Container fluid bg='dark'data-bs-theme="dark" fixed='bottom' >
-            <p>EpiBooks - Copyright 2024</p>
-        </Container>
+       <footer className="d-flex bg-dark mt-2 fixed-bottom">
+        <span className="text-light m-auto p-2">
+        <strong> EPICODE-EpiBooks </strong> Copyright {new Date().getFullYear()}
+        </span>
+       </footer>
     );
 };
 

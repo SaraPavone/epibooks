@@ -4,10 +4,10 @@ const MyNav = function () {
     return (
         <Navbar collapseOnSelect expand="md" bg='dark'data-bs-theme="dark" fixed='top'>
       <Container fluid>
-        <Navbar.Brand href="#">EpiBooks</Navbar.Brand>
+        <Navbar.Brand className='ms-5' href="#">EpiBooks</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="me-auto">
             <Nav.Link href="#">Home</Nav.Link>
             <Nav.Link href="#">About</Nav.Link>
             <Nav.Link href="#">Browse</Nav.Link>
